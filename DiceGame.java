@@ -10,5 +10,8 @@ public class DiceGame{
         System.out.println("Die 2: "+dicenum2);
         int total = dicenum1+dicenum2;
         System.out.println("Total value: " + total);
+        
+        if(total <= 7)System.out.println("You lost");
+        else System.out.println("You won");
     }
 }
